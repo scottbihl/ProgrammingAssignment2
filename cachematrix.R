@@ -17,9 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
              getinvt = getinvt)
 }
 
-
 ## Invert a square matrix or return a cached calcuation 
-## simple modification of mean example using with solve instead
+## simple modification of mean example using solve instead
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
